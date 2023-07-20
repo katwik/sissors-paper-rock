@@ -4,14 +4,13 @@
     box-sizing: border-box;
 }
 
-section {
-    height: 100vh;
-    background-color: rgb(118, 191, 123);
+body {
     font-family: "Caveat", cursive;
+    background-color: rgb(149, 183, 248);
 }
 
 .score {
-    color: rgb(27, 72, 134);
+    color: rgb(17, 44, 81);
     height: 20vh;
     display: flex;
     justify-content: space-around;
@@ -29,7 +28,7 @@ section {
 }
 
 .intro {
-    color: rgb(27, 72, 134);
+    color: rgb(17, 44, 81);
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -48,9 +47,9 @@ section {
     height: 50px;
     background: none;
     border: none;
-    color: rgb(169, 171, 180);
+    color: rgb(223, 225, 234);
     font-size: 20px;
-    background: rgb(27, 72, 134);
+    background: rgb(17, 44, 81);
     border-radius: 3px;
     cursor: pointer;
 }
@@ -64,7 +63,7 @@ section {
 }
 
 .winner {
-    color: rgb(27, 72, 134);
+    color: rgb(17, 44, 81);
     text-align: center;
     font-size: 50px;
 }
@@ -170,3 +169,5 @@ div.fadeIn {
         transform: translateY(0px);
     }
 }
+
+/* Media queries */
